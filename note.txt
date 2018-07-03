@@ -8,3 +8,8 @@
 8、git init  : 创建版本库（告诉git在哪里安家）（前提条件：需要用cd命令先进入要安家的目录）
 9、git add + 文件名 ： 把要添加/改变的文件放到台面上
 10、git commit -m "内容"  ：把添加/改变的文件正式放入仓库
+  （add 可以多次，commit 只要一次就行）
+11、git status : 用来检测当前版本和仓库中的是否一致
+12、git diff :用来显示哪些地方不一样（详细修改的信息）
+13、git log ： 显示用户所修改的信息（git log --pretty=oneline : 美化git log的信息）
+14、git reset --hard + 版本号（versionName  通过git log 看到的十六进制版本号，一般前6位即可）：回退到某个时间点
