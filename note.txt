@@ -3,5 +3,8 @@
 3、rm -rf + 要删除的内容   :  删除文件或文件夹
 4、cd + 要进入的目录   ：改变路径
 5、mkdir + 要创建的文件夹名字  ：创建文件夹
-6、git init  : 创建版本库（告诉git在哪里安家）（前提条件：需要用cd命令先进入要安家的目录）
-7、git add + 文件名 ： 
+6、git config --global user.name "名字"  ： 创建git帐号
+7、git config --global user.email "邮箱" : 创建邮箱帐号
+8、git init  : 创建版本库（告诉git在哪里安家）（前提条件：需要用cd命令先进入要安家的目录）
+9、git add + 文件名 ： 把要添加/改变的文件放到台面上
+10、git commit -m "内容"  ：把添加/改变的文件正式放入仓库
