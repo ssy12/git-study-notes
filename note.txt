@@ -12,4 +12,7 @@
 11、git status : 用来检测当前版本和仓库中的是否一致
 12、git diff :用来显示哪些地方不一样（详细修改的信息）
 13、git log ： 显示用户所修改的信息（git log --pretty=oneline : 美化git log的信息）
-14、git reset --hard + 版本号（versionName  通过git log 看到的十六进制版本号，一般前6位即可）：回退到某个时间点
+14、git reset --hard + 版本号（versionName  通过git log 看到的十六进制版本号，一般前6位即可）：回退到某个时间点（在版本之间进行切换）
+15、cat + 文件名 ：显示文件的内容
+16、HEAD指针：HEAD指向哪个版本号，当前版本就是谁（工作区的版本就是谁）
+17、git reflog ：展示穿梭的过程（用来后悔）
